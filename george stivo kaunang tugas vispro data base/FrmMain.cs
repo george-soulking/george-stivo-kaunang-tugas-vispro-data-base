@@ -209,6 +209,13 @@ namespace george_stivo_kaunang_tugas_vispro_data_base
                 MessageBox.Show(ex.ToString());
             }
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            FrmPengguna1 frmPengguna1 = new FrmPengguna1();
+            frmPengguna1.Show();
+        }
+
         private void FrmMain_Load(object sender, EventArgs e)
         {
             try
